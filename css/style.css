@@ -17,3 +17,22 @@ Made @ One Month HTML
 }
 
 /* Layout */
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	background: Silver;
+	padding: 50px;
+}
+
+#main {
+	background: SkyBlue;
+	padding: 50px;
+}
+
+#footer {
+	background: PeachPuff;
+	padding: 50px;
+}
