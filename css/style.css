@@ -11,12 +11,31 @@ Made @ One Month HTML
      box-sizing: border-box; /* IE */
 }
 
-/* Clear Class */
+/* Float and clear classes */
 .clear {
 	clear: both;
 }
 
-/* Layout */
+/* For margin (and padding) all values can be specified in the following order:
+
+0 = top
+15px = right
+15px = bottom
+0 = left
+
+*/
+
+.align-left {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.align-right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+/* Layout styles */
 #container {
 	width: 1000px;
 	margin: 0 auto;
@@ -30,6 +49,16 @@ Made @ One Month HTML
 #main {
 	background: SkyBlue;
 	padding: 50px;
+	width: 700px;
+	float: left;
+	text-align: justify;
+}
+
+#sidebar {
+	background: Pink;
+	width: 300px;
+	padding: 50px;
+	float: left;
 }
 
 #footer {
