@@ -50,7 +50,7 @@ Made @ OneMonth HTML
 	background: SkyBlue;
 	padding: 50px;
 	width: 700px;
-	float: left;
+	display: table-cell;
 	text-align: justify;
 }
 
@@ -58,7 +58,7 @@ Made @ OneMonth HTML
 	background: Pink;
 	width: 300px;
 	padding: 50px;
-	float: left;
+	display: table-cell;
 }
 
 #footer {
